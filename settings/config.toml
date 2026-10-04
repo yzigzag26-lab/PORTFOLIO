@@ -1,0 +1,37 @@
+# Static Web Server configuration for Wasmer Edge.
+# Based on the official wasmer-examples/static-website template.
+[general]
+
+#### Address & Root dir
+host = "::"
+port = 8080
+root = "/public"
+
+#### Logging
+log-level = "error"
+
+#### Cache Control headers
+cache-control-headers = true
+
+#### Auto Compression
+compression = true
+compression-static = true
+
+#### Error pages (resolved under the root directory)
+page404 = "./404.html"
+page50x = "./50x.html"
+
+#### Directory listing — OFF for a portfolio (don't expose file lists)
+directory-listing = false
+
+#### Redirect to trailing slash in the requested directory uri
+redirect-trailing-slash = true
+
+#### Worker threads
+threads-multiplier = 1
+
+#### Grace period after a graceful shutdown
+grace-period = 0
+
+#### Log request Remote Address if available
+log-remote-address = false

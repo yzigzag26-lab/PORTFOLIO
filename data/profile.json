@@ -1,0 +1,26 @@
+{
+  "name": "LINUXBOSS",
+  "role": "Student Developer • Future Ethical Hacker • Technology Founder",
+  "badge": "STUDENT DEVELOPER • TECHNOLOGY BUILDER",
+  "heroTitle": "LINUXBOSS",
+  "heroLines": [
+    "Student Developer.",
+    "Future Ethical Hacker.",
+    "Technology Founder."
+  ],
+  "heroDescription": "I build digital products, explore emerging technologies, and develop ideas that can grow into meaningful infrastructure.",
+  "status": "Currently building",
+  "focus": ["AI", "Cybersecurity", "Web Development", "Infrastructure"],
+  "photo": "assets/images/profile.png",
+  "bio": "I'm LINUXBOSS — a student developer interested in software, artificial intelligence, cybersecurity, blockchain, and digital infrastructure. I spend my time learning how systems work, building web products, and experimenting with ideas that could one day grow into useful technology for real people.",
+  "bioExtra": "My current focus is simple: learn deeply, build consistently, and document the journey. Every project I ship — from prototypes to infrastructure concepts — is a step toward building dependable systems, with a long-term eye on Africa's digital future.",
+  "philosophy": "I don't want to only use technology. I want to understand how systems work, build my own systems, and eventually create infrastructure that other people can depend on.",
+  "email": "yzigzag@gmail.com",
+  "whatsapp": "07072585292",
+  "github": "yzigzag26-lab",
+  "socials": {
+    "linkedin": "",
+    "twitter": "",
+    "instagram": ""
+  }
+}

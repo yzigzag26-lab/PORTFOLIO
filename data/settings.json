@@ -1,0 +1,16 @@
+{
+  "siteTitle": "LINUXBOSS — Developer & Technology Founder",
+  "metaDescription": "LINUXBOSS is a student developer and future ethical hacker building technology projects across AI, cybersecurity, blockchain, and digital infrastructure.",
+  "keywords": "LINUXBOSS, student developer, ethical hacker, technology founder, AI, cybersecurity, blockchain, TRUSTOS, Africa tech",
+  "ogTitle": "LINUXBOSS — Developer & Technology Founder",
+  "ogDescription": "Building technology, exploring systems, and working toward infrastructure for Africa's digital future.",
+  "ogImage": "assets/images/profile.png",
+  "resume": {
+    "filename": "",
+    "url": ""
+  },
+  "theme": "dark",
+  "animations": true,
+  "maintenanceMode": false,
+  "siteVisible": true
+}

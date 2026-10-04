@@ -1,0 +1,47 @@
+[
+  {
+    "id": "zion-ai",
+    "name": "Zion AI",
+    "role": "Collaborator",
+    "description": "An AI-focused build LINUXBOSS contributes to and collaborates on. Details and public links will be added as the collaboration evolves.",
+    "url": "",
+    "status": "In Progress",
+    "logo": ""
+  },
+  {
+    "id": "zion-chat",
+    "name": "Zion Chat",
+    "role": "Collaborator",
+    "description": "A chat/messaging-oriented project LINUXBOSS collaborates on. Public link coming soon.",
+    "url": "",
+    "status": "In Progress",
+    "logo": ""
+  },
+  {
+    "id": "farmconnect-nigeria",
+    "name": "FarmConnect Nigeria",
+    "role": "Contributor",
+    "description": "An agriculture-connectivity initiative in Nigeria that LINUXBOSS contributes to. Public link coming soon.",
+    "url": "",
+    "status": "In Progress",
+    "logo": ""
+  },
+  {
+    "id": "prepare-ai",
+    "name": "Prepare AI",
+    "role": "Partnered Project",
+    "description": "An AI preparation/learning project partnered with LINUXBOSS. Public link coming soon.",
+    "url": "",
+    "status": "In Progress",
+    "logo": ""
+  },
+  {
+    "id": "taxi-creative-design",
+    "name": "Taxi Creative Design",
+    "role": "Contributor",
+    "description": "A creative/design project LINUXBOSS contributes to. Public link coming soon.",
+    "url": "",
+    "status": "In Progress",
+    "logo": ""
+  }
+]

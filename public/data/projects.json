@@ -1,0 +1,34 @@
+[
+  {
+    "id": "trustos",
+    "name": "TRUSTOS",
+    "category": "Trust Infrastructure / Blockchain",
+    "filters": ["blockchain", "infrastructure", "ai"],
+    "description": "A trust verification infrastructure concept designed to verify digital information, blockchain transactions, identities, credentials, ownership, provenance, authorization, and eventually AI agents.",
+    "longDescription": "TRUSTOS is an early-stage exploration into digital trust infrastructure. The concept covers verification of digital information, blockchain transactions, identities, credentials, ownership, provenance, and authorization — with AI-agent verification as part of the long-term vision. It is being designed and prototyped in the open as a learning-driven infrastructure project.",
+    "visionNote": "Some capabilities listed are part of the long-term vision and are still being researched and designed — not all of them are implemented yet.",
+    "status": "Active Development",
+    "tags": ["Blockchain", "Verification", "Infrastructure", "Security", "AI"],
+    "liveUrl": "https://trustos.wasmer.app/",
+    "githubUrl": "",
+    "image": "assets/images/projects/trustos.png",
+    "featured": true,
+    "order": 1
+  },
+  {
+    "id": "pharma-near-me",
+    "name": "Pharma Near Me",
+    "category": "Healthcare Technology",
+    "filters": ["web"],
+    "description": "A healthcare technology prototype designed to help users locate pharmacies and medicines while providing useful tools and dashboards for healthcare providers.",
+    "longDescription": "Pharma Near Me is a healthcare technology prototype exploring how people can quickly locate nearby pharmacies and medicines. It also experiments with dashboards and tools for healthcare providers. This is a prototype for learning and demonstration — it does not provide medical advice.",
+    "visionNote": "Prototype for learning and demonstration purposes. It does not provide medical advice, diagnosis, or treatment.",
+    "status": "Prototype",
+    "tags": ["Healthcare", "Web App", "Search", "Dashboard"],
+    "liveUrl": "https://phama-near-me.wasmer.app/",
+    "githubUrl": "",
+    "image": "assets/images/projects/pharma-near-me.png",
+    "featured": true,
+    "order": 2
+  }
+]

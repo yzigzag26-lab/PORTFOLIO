@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LINUXBOSS — Developer &amp; Technology Founder</title>
+  <meta name="description" content="LINUXBOSS is a student developer and future ethical hacker building technology projects across AI, cybersecurity, blockchain, and digital infrastructure.">
+  <meta name="keywords" content="LINUXBOSS, student developer, ethical hacker, technology founder, AI, cybersecurity, blockchain, TRUSTOS, Africa tech">
+  <meta name="author" content="LINUXBOSS">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#08080a">
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="LINUXBOSS">
+  <meta property="og:title" content="LINUXBOSS — Developer & Technology Founder">
+  <meta property="og:description" content="Building technology, exploring systems, and working toward infrastructure for Africa's digital future.">
+  <meta property="og:image" content="assets/images/profile.png">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="LINUXBOSS — Developer & Technology Founder">
+  <meta name="twitter:description" content="Building technology, exploring systems, and working toward infrastructure for Africa's digital future.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23ff6a1a'/%3E%3Ctext x='32' y='43' font-family='Arial,sans-serif' font-size='28' font-weight='bold' fill='white' text-anchor='middle'%3ELB%3C/text%3E%3C/svg%3E">
+  <script>
+    /* Apply saved/system theme before paint (prevents flash). */
+    (function () {
+      try {
+        var saved = JSON.parse(window.localStorage.getItem("lbx_theme") || "null");
+        var theme = saved || (window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
+        document.documentElement.setAttribute("data-theme", theme);
+      } catch (e) { /* default dark */ }
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============ SVG icon sprite (Lucide-style, inline = offline-safe) ============ -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol>
+      <symbol id="i-moon" viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></symbol>
+      <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol>
+      <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+      <symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+      <symbol id="i-arrow-up-right" viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"/></symbol>
+      <symbol id="i-arrow-up" viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6"/></symbol>
+      <symbol id="i-external" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6M10 14 21 3"/></symbol>
+      <symbol id="i-github" viewBox="0 0 24 24"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.55v-2.15c-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.75 2.69 1.25 3.35.95.1-.74.4-1.25.72-1.54-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.38-5.25 5.67.41.35.77 1.05.77 2.12v3.15c0 .3.21.67.8.55A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></symbol>
+      <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></symbol>
+      <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5c-1.5 0-3-.4-4.2-1.1L3 20l1.1-5.3A8.5 8.5 0 1 1 21 11.5z"/></symbol>
+      <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 22s8-3.5 8-10V5l-8-3-8 3v7c0 6.5 8 10 8 10z"/></symbol>
+      <symbol id="i-shield-check" viewBox="0 0 24 24"><path d="M12 22s8-3.5 8-10V5l-8-3-8 3v7c0 6.5 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></symbol>
+      <symbol id="i-cpu" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M9 2v2M15 2v2M9 20v2M15 20v2M2 9h2M2 15h2M20 9h2M20 15h2"/></symbol>
+      <symbol id="i-blocks" viewBox="0 0 24 24"><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><path d="m3.3 7 8.7 5 8.7-5M12 22V12"/></symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+      <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></symbol>
+      <symbol id="i-folder" viewBox="0 0 24 24"><path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2z"/></symbol>
+      <symbol id="i-users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
+      <symbol id="i-zap" viewBox="0 0 24 24"><path d="M13 2 3 14h7l-1 8 10-12h-7z"/></symbol>
+      <symbol id="i-terminal" viewBox="0 0 24 24"><path d="m4 17 6-6-6-6M12 19h8"/></symbol>
+      <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20 15 15 0 0 1 0-20z"/></symbol>
+      <symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4V8h4"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></symbol>
+      <symbol id="i-x-social" viewBox="0 0 24 24"><path d="M4 4l16 16M20 4 4 20"/></symbol>
+      <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></symbol>
+      <symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></symbol>
+      <symbol id="i-eye" viewBox="0 0 24 24"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7z"/><circle cx="12" cy="12" r="3"/></symbol>
+      <symbol id="i-rocket" viewBox="0 0 24 24"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></symbol>
+      <symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 2 9 5-9 5-9-5z"/><path d="m3 12 9 5 9-5M3 17l9 5 9-5"/></symbol>
+      <symbol id="i-database" viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14a9 3 0 0 0 18 0V5"/><path d="M3 12a9 3 0 0 0 18 0"/></symbol>
+      <symbol id="i-file" viewBox="0 0 24 24"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7z"/><path d="M14 2v4a2 2 0 0 0 2 2h4M10 9H8M16 13H8M16 17H8"/></symbol>
+    </defs>
+  </svg>
+
+  <!-- Maintenance-mode banner (toggled from admin Settings) -->
+  <div class="maintenance-banner" id="maintenanceBanner" role="status">
+    <svg class="icon" aria-hidden="true"><use href="#i-zap"/></svg>
+    <span>Preview: maintenance mode is ON in admin settings.</span>
+    <button id="maintenanceDismiss" type="button">Dismiss</button>
+  </div>
+
+  <!-- ============ NAVIGATION ============ -->
+  <header class="nav" id="siteNav">
+    <div class="container nav-inner">
+      <a class="brand" href="#home" aria-label="LINUXBOSS — home">
+        <span class="brand-mark" aria-hidden="true">LB</span>
+        <span>LINUXBOSS</span>
+      </a>
+      <nav aria-label="Primary">
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#collaborations">Collaborations</a></li>
+          <li><a href="#vision">Vision</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <span class="status-pill" title="Current status">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span class="txt" id="navStatusText">Currently building</span>
+        </span>
+        <button class="icon-btn" id="themeToggle" type="button" aria-label="Switch to light mode">
+          <svg class="icon icon-sun" aria-hidden="true"><use href="#i-sun"/></svg>
+          <svg class="icon icon-moon" aria-hidden="true"><use href="#i-moon"/></svg>
+        </button>
+        <button class="icon-btn menu-btn" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+          <svg class="icon" aria-hidden="true"><use href="#i-menu"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home" aria-label="Introduction">
+      <div class="hero-bg" aria-hidden="true"><div class="hero-glow"></div></div>
+      <div class="container hero-grid">
+        <div>
+          <span class="hero-badge reveal">
+            <svg class="icon" aria-hidden="true"><use href="#i-terminal"/></svg>
+            <span id="heroBadgeText">STUDENT DEVELOPER • TECHNOLOGY BUILDER</span>
+          </span>
+          <h1 class="hero-title reveal" id="heroTitle" data-delay="80">LINUXBOSS</h1>
+          <p class="hero-roles reveal" id="heroRoles" data-delay="140">
+            <span>Student Developer.</span><br>
+            <span class="role-accent">Future Ethical Hacker.</span><br>
+            <span>Technology Founder.</span>
+          </p>
+          <p class="hero-desc reveal" data-delay="200">
+            <span id="heroDesc">I build digital products, explore emerging technologies, and develop ideas that can grow into meaningful infrastructure.</span>
+          </p>
+          <div class="hero-cta reveal" data-delay="260">
+            <a class="btn btn-primary" href="#projects">View Projects
+              <svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg>
+            </a>
+            <a class="btn btn-ghost" href="#contact">Contact Me</a>
+          </div>
+          <div class="hero-links reveal" data-delay="320">
+            <a class="link-arrow" id="heroGithub" href="https://github.com/yzigzag26-lab" target="_blank" rel="noopener">
+              <svg class="icon fill" aria-hidden="true"><use href="#i-github"/></svg> GitHub
+            </a>
+            <a class="link-arrow" id="heroWhatsapp" href="https://wa.me/2347072585292" target="_blank" rel="noopener">
+              <svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg> WhatsApp
+            </a>
+          </div>
+          <div class="hero-meta reveal" data-delay="380">
+            <div><b>BUILD.</b><span>Ship real projects</span></div>
+            <div><b>SECURE.</b><span>Think like an attacker</span></div>
+            <div><b>VERIFY.</b><span>Trust infrastructure</span></div>
+            <div><b>SCALE.</b><span>Long-term vision</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal reveal-scale" data-delay="200">
+          <div class="photo-frame">
+            <!-- Styled monogram shows until the owner uploads assets/images/profile.png -->
+            <div class="photo-fallback" aria-hidden="true">LB<small>LINUXBOSS</small></div>
+            <img class="photo" id="heroPhoto" src="assets/images/profile.png" alt="LINUXBOSS — profile photograph" data-fallback fetchpriority="high">
+          </div>
+          <div class="float-card float-focus" aria-label="Current focus areas">
+            <h4>Current Focus</h4>
+            <ul id="focusList">
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>AI</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Cybersecurity</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Web Development</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Infrastructure</li>
+            </ul>
+          </div>
+          <div class="float-card float-status" aria-label="Status">
+            <span class="status-dot" aria-hidden="true"></span>
+            <div><span>Status</span><b id="floatStatusText">BUILDING</b></div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="scroll-hint reveal" aria-hidden="true">SCROLL <span class="line"></span> EXPLORE</div>
+      </div>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>BUILD <i class="dot">●</i> SECURE <i class="dot">●</i> VERIFY <i class="dot">●</i> SCALE <i class="dot">●</i>&nbsp;</span>
+        <span>BUILD <i class="dot">●</i> SECURE <i class="dot">●</i> VERIFY <i class="dot">●</i> SCALE <i class="dot">●</i>&nbsp;</span>
+      </div>
+    </div>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about" aria-label="About LINUXBOSS">
+      <div class="container about-grid">
+        <div class="about-copy">
+          <div class="section-head">
+            <span class="kicker reveal">01 — About</span>
+            <h2 class="section-title reveal" data-delay="60">About <span class="accent">LINUXBOSS</span></h2>
+          </div>
+          <p class="reveal" id="aboutBio" data-delay="120"></p>
+          <p class="reveal" id="aboutBioExtra" data-delay="180"></p>
+          <blockquote class="philosophy reveal" data-delay="240">
+            <span id="aboutPhilosophy"></span>
+          </blockquote>
+        </div>
+        <div class="stat-grid">
+          <div class="stat-card reveal" data-delay="100">
+            <svg class="icon" aria-hidden="true"><use href="#i-folder"/></svg>
+            <b>Selected Projects</b><span>TRUSTOS, Pharma Near Me &amp; collaborations</span>
+          </div>
+          <div class="stat-card reveal" data-delay="160">
+            <svg class="icon" aria-hidden="true"><use href="#i-layers"/></svg>
+            <b>Technologies</b><span>Web, AI systems, blockchain &amp; security research</span>
+          </div>
+          <div class="stat-card reveal" data-delay="220">
+            <svg class="icon" aria-hidden="true"><use href="#i-eye"/></svg>
+            <b>Current Focus</b><span>Learning deeply, building consistently</span>
+          </div>
+          <div class="stat-card reveal" data-delay="280">
+            <svg class="icon" aria-hidden="true"><use href="#i-rocket"/></svg>
+            <b>Future Vision</b><span>Infrastructure for Africa's digital future</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section section-alt" id="projects" aria-label="Selected projects">
+      <div class="container">
+        <div class="section-head">
+          <span class="kicker reveal">02 — Work</span>
+          <h2 class="section-title reveal" data-delay="60">Selected <span class="accent">Projects</span></h2>
+          <p class="section-sub reveal" data-delay="120">Real builds in progress — prototypes, experiments, and early infrastructure concepts. Each one is a step forward.</p>
+        </div>
+        <div class="filter-bar reveal" role="group" aria-label="Filter projects by category">
+          <button class="filter-btn active" type="button" data-filter="all" aria-pressed="true">ALL</button>
+          <button class="filter-btn" type="button" data-filter="web" aria-pressed="false">WEB</button>
+          <button class="filter-btn" type="button" data-filter="ai" aria-pressed="false">AI</button>
+          <button class="filter-btn" type="button" data-filter="cybersecurity" aria-pressed="false">CYBERSECURITY</button>
+          <button class="filter-btn" type="button" data-filter="blockchain" aria-pressed="false">BLOCKCHAIN</button>
+          <button class="filter-btn" type="button" data-filter="infrastructure" aria-pressed="false">INFRASTRUCTURE</button>
+        </div>
+        <div class="project-grid" id="projectGrid" aria-live="polite">
+          <!-- Rendered by js/projects.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ COLLABORATIONS ============ -->
+    <section class="section" id="collaborations" aria-label="Collaborations and partnerships">
+      <div class="container">
+        <div class="section-head">
+          <span class="kicker reveal">03 — Together</span>
+          <h2 class="section-title reveal" data-delay="60">Collaborations <span class="accent">&amp; Partnerships</span></h2>
+          <p class="section-sub reveal" data-delay="120">Projects LINUXBOSS contributes to or partners with — clearly labeled by role. Nothing here is claimed as owned unless stated.</p>
+        </div>
+        <div class="collab-list" id="collabList">
+          <!-- Rendered by js/projects.js -->
+        </div>
+        <p class="collab-note reveal">
+          <svg class="icon" aria-hidden="true"><use href="#i-shield-check"/></svg>
+          <span>Honesty first: these are <strong>partnered, contributor, or collaborator</strong> roles — not companies owned by LINUXBOSS. Links marked “coming soon” will be added by the project owners.</span>
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ VISION ============ -->
+    <section class="section vision" id="vision" aria-label="The vision">
+      <div class="container">
+        <div class="vision-panel">
+          <span class="kicker reveal">04 — Manifesto</span>
+          <h2 class="section-title reveal" data-delay="60" style="margin-bottom:1.4rem">The <span class="accent">Vision</span></h2>
+          <p class="vision-statement reveal" data-delay="120"><span class="q">“</span>What foundational technology will Africa depend on tomorrow?<span class="q">”</span></p>
+          <div class="vision-copy reveal" data-delay="180">
+            <p style="margin-bottom:1rem">Most people use technology. Very few build the <strong>foundations</strong> it runs on — identity, trust, verification, and infrastructure. My long-term direction is to learn those layers deeply and help build them: <strong>AI systems</strong> that are useful and accountable, <strong>cybersecurity</strong> thinking baked in from day one, <strong>blockchain and digital trust</strong> primitives, and <strong>automation</strong> that removes friction from everyday life.</p>
+            <p><strong>TRUSTOS</strong> is my early exploration into that future — a trust-verification concept asking how digital information, credentials, ownership, and eventually AI agents could be verified in an open way. It is research, building, and experimentation — not a finished national-scale system. The ambition is long-term, and the work starts now.</p>
+          </div>
+          <div class="vision-pillars">
+            <div class="pillar reveal" data-delay="100">
+              <svg class="icon" aria-hidden="true"><use href="#i-cpu"/></svg>
+              <b>AI &amp; Automation</b><span>Useful AI systems and automation that serve real needs.</span>
+            </div>
+            <div class="pillar reveal" data-delay="160">
+              <svg class="icon" aria-hidden="true"><use href="#i-shield"/></svg>
+              <b>Security First</b><span>Ethical-hacking mindset: understand systems, then protect them.</span>
+            </div>
+            <div class="pillar reveal" data-delay="220">
+              <svg class="icon" aria-hidden="true"><use href="#i-blocks"/></svg>
+              <b>Trust &amp; Identity</b><span>Verification primitives for credentials, ownership, provenance.</span>
+            </div>
+            <div class="pillar reveal" data-delay="280">
+              <svg class="icon" aria-hidden="true"><use href="#i-database"/></svg>
+              <b>Infrastructure</b><span>Dependable systems others can build on top of.</span>
+            </div>
+          </div>
+          <div class="vision-words reveal" aria-label="Brand words">
+            <span>BUILD</span><span>SECURE</span><span class="hl">VERIFY</span><span>SCALE</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section section-alt" id="skills" aria-label="Technical stack">
+      <div class="container">
+        <div class="section-head center">
+          <span class="kicker reveal">05 — Stack</span>
+          <h2 class="section-title reveal" data-delay="60">Technical <span class="accent">Stack</span></h2>
+          <p class="section-sub reveal" data-delay="120">An honest map of what I'm working with — labeled by stage, not inflated with fake percentages.</p>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card reveal" data-delay="100">
+            <header>
+              <span class="skill-icon"><svg class="icon" aria-hidden="true"><use href="#i-terminal"/></svg></span>
+              <div><small>Group 01</small><h3>Development</h3></div>
+            </header>
+            <ul class="skill-list">
+              <li>HTML <span class="level">Building</span></li>
+              <li>CSS <span class="level">Building</span></li>
+              <li>JavaScript <span class="level">Building</span></li>
+              <li>Node.js <span class="level">Learning</span></li>
+            </ul>
+          </div>
+          <div class="skill-card reveal" data-delay="170">
+            <header>
+              <span class="skill-icon"><svg class="icon" aria-hidden="true"><use href="#i-cpu"/></svg></span>
+              <div><small>Group 02</small><h3>AI &amp; Emerging Tech</h3></div>
+            </header>
+            <ul class="skill-list">
+              <li>Artificial Intelligence <span class="level">Exploring</span></li>
+              <li>AI Systems <span class="level">Exploring</span></li>
+              <li>Blockchain <span class="level">Learning</span></li>
+              <li>Trust Infrastructure <span class="level">Developing</span></li>
+            </ul>
+          </div>
+          <div class="skill-card reveal" data-delay="240">
+            <header>
+              <span class="skill-icon"><svg class="icon" aria-hidden="true"><use href="#i-shield"/></svg></span>
+              <div><small>Group 03</small><h3>Cybersecurity</h3></div>
+            </header>
+            <ul class="skill-list">
+              <li>Ethical Hacking <span class="level">Learning</span></li>
+              <li>Security Research <span class="level">Exploring</span></li>
+              <li>Infrastructure Thinking <span class="level">Developing</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ JOURNEY ============ -->
+    <section class="section" id="journey" aria-label="The journey">
+      <div class="container">
+        <div class="section-head center">
+          <span class="kicker reveal">06 — Path</span>
+          <h2 class="section-title reveal" data-delay="60">The <span class="accent">Journey</span></h2>
+          <p class="section-sub reveal" data-delay="120">An ongoing path — no fake finish lines, no invented milestones. Just stages I'm moving through.</p>
+        </div>
+        <div class="timeline">
+          <div class="timeline-step done">
+            <div class="timeline-card reveal">
+              <span class="timeline-stage">STAGE 01 — ACTIVE</span>
+              <h3>Learning</h3>
+              <p>Foundations first: how the web works, how code runs, how systems fit together. Learning in public, one concept at a time.</p>
+            </div>
+          </div>
+          <div class="timeline-step done">
+            <div class="timeline-card reveal">
+              <span class="timeline-stage">STAGE 02 — ACTIVE</span>
+              <h3>Building</h3>
+              <p>Shipping real projects — TRUSTOS, Pharma Near Me, and collaborations. Turning lessons into working products.</p>
+            </div>
+          </div>
+          <div class="timeline-step now">
+            <div class="timeline-card reveal">
+              <span class="timeline-stage">STAGE 03 — NOW</span>
+              <h3>Experimenting</h3>
+              <p>Pushing into AI systems, trust infrastructure concepts, and new architectures. Prototypes over promises.</p>
+            </div>
+          </div>
+          <div class="timeline-step">
+            <div class="timeline-card reveal">
+              <span class="timeline-stage">STAGE 04 — NEXT</span>
+              <h3>Securing</h3>
+              <p>Going deeper into ethical hacking and security research — learning to think like an attacker to build stronger defenses.</p>
+            </div>
+          </div>
+          <div class="timeline-step">
+            <div class="timeline-card reveal">
+              <span class="timeline-stage">STAGE 05 — VISION</span>
+              <h3>Scaling</h3>
+              <p>The long game: infrastructure-level products and systems that other people and businesses can depend on.</p>
+            </div>
+          </div>
+        </div>
+        <p class="journey-note reveal">Learning → Building → Experimenting → Securing → Scaling</p>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section" id="contact" aria-label="Contact">
+      <div class="container">
+        <div class="contact-panel">
+          <span class="kicker reveal" style="justify-content:center">07 — Contact</span>
+          <h2 class="reveal" data-delay="60">Let's build something <span class="accent">useful.</span></h2>
+          <p class="reveal" data-delay="120">Open to learning opportunities, collaborations, feedback on my projects, and conversations about technology and infrastructure.</p>
+          <div class="contact-cards">
+            <div class="contact-card reveal" data-delay="140">
+              <span class="skill-icon"><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg></span>
+              <div><small>Email</small><b id="contactEmail">yzigzag@gmail.com</b></div>
+            </div>
+            <div class="contact-card reveal" data-delay="200">
+              <span class="skill-icon"><svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg></span>
+              <div><small>WhatsApp</small><b id="contactWhatsapp">07072585292</b></div>
+            </div>
+            <div class="contact-card reveal" data-delay="260">
+              <span class="skill-icon"><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg></span>
+              <div><small>GitHub</small><b id="contactGithub">github.com/yzigzag26-lab</b></div>
+            </div>
+          </div>
+          <div class="contact-cta reveal" data-delay="300">
+            <a class="btn btn-primary" id="btnEmail" href="mailto:yzigzag@gmail.com">
+              <svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg> Email Me
+            </a>
+            <a class="btn btn-ghost" id="btnWhatsapp" href="https://wa.me/2347072585292" target="_blank" rel="noopener">
+              <svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg> WhatsApp
+            </a>
+            <a class="btn btn-ghost" id="btnGithub" href="https://github.com/yzigzag26-lab" target="_blank" rel="noopener">
+              <svg class="icon fill" aria-hidden="true"><use href="#i-github"/></svg> GitHub
+            </a>
+            <button class="btn btn-ghost" id="btnCopyEmail" type="button">
+              <svg class="icon" aria-hidden="true"><use href="#i-copy"/></svg> Copy Email
+            </button>
+            <a class="btn btn-ghost" id="btnResume" href="#" style="display:none">
+              <svg class="icon" aria-hidden="true"><use href="#i-file"/></svg> Resume
+            </a>
+          </div>
+          <div class="social-row" id="socialRow" aria-label="Social links"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="#home"><span class="brand-mark" aria-hidden="true">LB</span><span>LINUXBOSS</span></a>
+          <p>Student Developer • Future Ethical Hacker • Technology Founder. Building technology, exploring systems, and working toward infrastructure for Africa's digital future.</p>
+          <div class="footer-build"><span><b>BUILD.</b> SECURE. VERIFY. SCALE.</span></div>
+        </div>
+        <div class="footer-col">
+          <h4>Navigate</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#vision">Vision</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="mailto:yzigzag@gmail.com">Email</a></li>
+            <li><a href="https://wa.me/2347072585292" target="_blank" rel="noopener">WhatsApp</a></li>
+            <li><a href="https://github.com/yzigzag26-lab" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="admin.html">Admin</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year">2026</span> LINUXBOSS. Built with curiosity.</span>
+        <a class="to-top" href="#home">Back to top <svg class="icon" aria-hidden="true"><use href="#i-arrow-up"/></svg></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ PROJECT MODAL ============ -->
+  <div class="modal-backdrop" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalName">
+    <div class="modal">
+      <div class="modal-media">
+        <div class="media-fallback" id="modalMediaFallback" aria-hidden="true">LB</div>
+        <img id="modalMediaImg" src="" alt="" data-fallback>
+        <button class="modal-close" type="button" aria-label="Close project details">
+          <svg class="icon" aria-hidden="true"><use href="#i-x"/></svg>
+        </button>
+      </div>
+      <div class="modal-body">
+        <span class="project-cat" id="modalCat">Project</span>
+        <h3 id="modalName">Project</h3>
+        <p id="modalDesc"></p>
+        <div class="modal-note" id="modalNote">
+          <svg class="icon" aria-hidden="true"><use href="#i-shield-check"/></svg>
+          <span id="modalNoteText"></span>
+        </div>
+        <div class="modal-meta" id="modalMeta"></div>
+        <div class="tag-row" id="modalTags" style="margin-top:1rem"></div>
+        <div class="modal-actions" id="modalActions"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status">
+    <svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>
+    <span id="toastText"></span>
+  </div>
+
+  <script src="js/config.js"></script>
+  <script src="js/projects.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
